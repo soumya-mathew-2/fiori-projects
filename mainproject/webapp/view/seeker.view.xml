@@ -1,0 +1,67 @@
+<mvc:View controllerName="com.applexus.mainproject.controller.seeker"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+	xmlns:c="sap.ui.core">
+   <Page id="page"  class="sap.m.IconTabBar"   backgroundDesign="Solid" contentOnlyBusy="true" titleLevel="H6" title="Commute Companion">
+
+   <IconTabBar stretchContentHeight="true" id="_seeker1"  enableTabReordering="true" headerMode="Inline"  upperCase="true">
+
+    <items>
+    	<IconTabFilter id="seeker2" 
+				showAll="true"
+				text="Welcome Seeker"
+				key="All" 
+				/>
+				<!-- <c:Fragment fragmentName="com.applexus.mainproject.Fragments.welcpro" type="XML"/> -->
+
+    <IconTabFilter id="Seeker3" 
+	key="info" 
+	icon="sap-icon://check-availability"
+	   design="Horizontal"
+	    tooltip="Login"   >
+	<Text id="seekText1"  text="Search Trip" />
+	<c:Fragment fragmentName="com.applexus.mainproject.Fragments.Search" type="XML"/>
+	
+
+    </IconTabFilter>
+
+	  <IconTabSeparator id="Seeker4"  />
+
+    <IconTabFilter id="Seeker5" 
+	 key="info" 
+	 icon="sap-icon://course-book"
+	    tooltip="Register" 
+		 iconDensityAware="false" 
+		 design="Horizontal" >
+<Text id="seektext2"  text="My Booking" />
+
+<c:Fragment fragmentName="com.applexus.mainproject.Fragments.mybook" type="XML"/>
+
+
+    </IconTabFilter>
+	
+	 <IconTabSeparator id="seeker8"  />
+	    <IconTabFilter id="seeker9" 
+		 key="info" icon="sap-icon://visits" 
+		 text="Logout"
+		  iconColor="Negative" 
+		   class="logout-tab"
+		    iconDensityAware="false" 
+			design="Horizontal"  >
+		<VBox id="seekertab"  justifyContent="Inherit" alignItems="Center" height="100%">
+         <Button id="Button2"  text="Click here to logout" press="handleLogout" />
+      </VBox>
+
+    </IconTabFilter>
+
+    
+
+   
+
+   
+    </items>
+
+    </IconTabBar>
+
+    </Page>
+</mvc:View>

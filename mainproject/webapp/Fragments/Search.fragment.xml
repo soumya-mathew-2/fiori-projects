@@ -1,0 +1,71 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+  >
+    <!-- <m:headerToolbar > -->
+
+            <Toolbar id="Toolbar1" height="3rem"  >
+
+            <FlexBox id="fbb100" justifyContent="End">
+
+           <Button id="_IDGenOpenCalendarButton" icon="sap-icon://add-calendar" press="openCalendar" class="buttonMargin" />
+            <Button id="_IDGenOpenCalendarButton1" text="show available trips" press="OnAvailable" />
+              
+                
+          <FlexBox id="_FlexBox10" class="inputContainer" alignItems="Center">
+      <Label id="_IDGenLabel616" text="Show trips for" class="smallLabel" />
+      <Input id="_IDGenInput617" width="40%" class="customSimpleForm" />
+    </FlexBox>
+
+               
+
+                </FlexBox>
+
+               
+
+            </Toolbar>
+
+        <!-- </m:headerToolbar> -->
+
+
+	  <Table id="_IDGenTable200" >
+      <columns >
+      <Column id="_IDGenColumn125">
+      <Text id="_IDGenText127"  text ="Provider Name"/></Column>
+      <Column id="_IDGenColumn130">
+      <Text id="_IDGenText130"  text ="Date"/></Column>
+      <Column id="_IDGenColumn140">
+      <Text id="_IDGenText140"  text ="Time"/></Column>
+      <Column id="_IDGenColumn150">
+      <Text id="_IDGenText150"  text ="Stops"/></Column>
+      <Column id="_IDGenColumn160">
+      <Text id="_IDGenText160"  text ="Vehicle Number"/></Column>
+       <Column id="_IDGenColumn170">
+      <Text id="_IDGenText170"  text ="Vehicle Name"/></Column>
+      <Column id="_Column170">
+      <Text id="Text17"  text ="Total Seats Provided"/></Column>
+       <Column id="_Column180">
+      <Text id="Text180"  text ="Seats Available"/></Column>
+      <Column id="_Column190">
+      <Text id="Text190"  text ="Select no of seats"/></Column>
+      
+      
+      
+      </columns>
+       <items>
+        <ColumnListItem id="_IDGenColumnListItem1000">
+        <cells>
+        <!-- <Text id="_IDGenText1" text="{oNewJSONModel>Carrid}"></Text>
+          <Text id="_IDGenText3" text="{oNewJSONModel>Connid}"></Text>
+           <Text id="_IDGenText4" text="{oNewJSONModel>Cityfrom}"></Text>
+            <Text id="_IDGenText5" text="{oNewJSONModel>Cityto}"></Text>
+             <Text id="_IDGenText6" text="{oNewJSONModel>Fltype}"></Text> -->
+             <!-- <HBox id="_IDGenHBox1">
+             <Button id="_IDGenButton1" icon="sap-icon://delete" class ="sapUiTinyMarginEnd" press="onDelete" type="Reject"/>
+              <Button id="_IDGenButton2" icon="sap-icon://edit" press="onUpdate" type="Accept"/>
+             </HBox> -->
+        </cells>
+        </ColumnListItem>
+        </items>
+                 </Table>
+</core:FragmentDefinition>

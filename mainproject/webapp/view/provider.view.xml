@@ -1,0 +1,76 @@
+<mvc:View controllerName="com.applexus.mainproject.controller.provider"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+	xmlns:c="sap.ui.core">
+   <Page id="page"  class="sap.m.IconTabBar"   backgroundDesign="Solid" contentOnlyBusy="true" titleLevel="H6" title="Commute Companion">
+
+   <IconTabBar stretchContentHeight="true" id="_IDGenIconTabBar7"  enableTabReordering="true" headerMode="Inline"  upperCase="true">
+
+    <items>
+    	<IconTabFilter id="IconTab" 
+				showAll="true"
+				text="Welcome Provider"
+				key="All" />
+				<c:Fragment fragmentName="com.applexus.mainproject.Fragments.welcpro" type="XML"/>
+
+    <IconTabFilter id="IconTab1" 
+	key="info" 
+	icon="sap-icon://insurance-car"
+	   design="Horizontal"
+	    tooltip="Login">
+	<Text id="Text1"  text="Create a Trip" />
+	
+
+    </IconTabFilter>
+
+	  <IconTabSeparator id="_IDGenIconTab2"  />
+
+    <IconTabFilter id="_IDGenIconTab3" 
+	 key="info" 
+	 icon="sap-icon://journey-change"
+	    tooltip="Register" 
+		 iconDensityAware="false" 
+		 design="Horizontal" >
+<Text id="text2"  text="My Trips" />
+
+<c:Fragment fragmentName="com.applexus.mainproject.Fragments.MyTrip" type="XML"/>
+
+
+    </IconTabFilter>
+	  <IconTabSeparator id="_IDGenIconTa2"  />
+    <IconTabFilter id="_IDGenIconTab4" 
+	 key="info" 
+	 icon="sap-icon://account" 
+	    iconDensityAware="false" 
+		iconColor="Positive"
+		design="Horizontal" >
+	<Text id="Text3" 
+	 text="My Account" />
+	 <c:Fragment fragmentName="com.applexus.mainproject.Fragments.vehicle" type="XML"/>
+	
+    </IconTabFilter>
+	 <IconTabSeparator id="_IDGenIconT3"  />
+	    <IconTabFilter id="_IDGenIconT5" 
+		 key="info" icon="sap-icon://visits" 
+		 text="Logout"
+		  iconColor="Negative" 
+		   class="logout-tab"
+		    iconDensityAware="false" 
+			design="Horizontal"  >
+		<VBox id="_IDGenVB1"  justifyContent="Inherit" alignItems="Center" height="100%">
+         <Button id="Button1"  text="Click here to logout" press="handleLogout" />
+      </VBox>
+
+    </IconTabFilter>
+
+    
+
+   
+
+   
+    </items>
+
+    </IconTabBar>
+
+    </Page>
+</mvc:View>

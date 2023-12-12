@@ -1,0 +1,90 @@
+<mvc:View controllerName="com.applexus.tablecontrol.controller.table_control"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"    
+    xmlns="sap.m"
+    xmlns:t="sap.ui.table"
+     xmlns:c="sap.ui.core"
+     	xmlns:f="sap.ui.layout.form"
+    >
+
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <t:Table id="_IDGenTable1" rows="{/employees}" alternateRowColors="true" rowSelectionChange="onSelect">
+            <t:columns>
+                <t:Column id="_IDGenColumn1">
+                   <Label id="_IDGenLabel1" text="Employee id"> </Label>
+                      <t:template>
+                         <Text id ="t1" wrapping="false" text ="{empid}"/>
+                      </t:template>
+               </t:Column>
+                <t:Column id="_IDGenColumn2" >
+                   <Label id="_IDGenLabel2" text="Employee name"/>
+                      <t:template>
+                       <Text id="t2" wrapping="false" text="{path: 'empname', formatter: '.formatter.myformatter'}" />
+                      </t:template>
+               </t:Column>
+               <t:Column id="_IDGenColumn3"  >
+                   <Label id="_IDGenLabel3" text="Salary"/>
+                      <t:template>
+                         <Text id ="t3" wrapping="false" text ="{empsalary} {currency}"/>
+                      </t:template>
+               </t:Column>
+               <t:Column id="_IDGenColumn4"  >
+                   <Label id="_IDGenLabel4"  text="Gender"/>
+                      <t:template>
+                        <Image id="_IDGenImage1" src="{Gender}" width="20%"/>
+                      </t:template>
+               </t:Column>
+               <t:Column id="_IDGenColumn5"   >
+                   <Label id="_IDGenLabel5"  text="Marital status"/>
+                      <t:template>
+                         <ComboBox id="_IDGenComboBox1" value="{Marital status}">
+                         <items>
+                         <c:Item id="id1" text="Married" />
+                         <c:Item id="id2" text="Single" />
+                         <c:Item id="id3" text="Divorced" />
+                         <c:Item id="id4" text="widow" />
+                         </items></ComboBox>
+                      </t:template>
+               </t:Column>
+               <t:Column id="_IDGenColumn6"   >
+                   <Label id="_IDGenLabel6"  text="Rating"/>
+                      <t:template>
+                         <RatingIndicator id="RI_EnabledFalse" maxValue="5" value="{rating}"/>
+                      </t:template>
+               </t:Column>
+               <t:Column id="_IDGenColumn7"   >
+                   <Label id="_IDGenLabel7"  text="Smoker" />
+                      <t:template>
+                        
+                   <c:Icon id="icon1" src="{= ${smoker}==='true' ? 'sap-icon://accept' : 'sap-icon://decline'}"></c:Icon>
+                      </t:template>
+               </t:Column>
+
+            </t:columns>
+            </t:Table>
+            <f:SimpleForm
+         id="mySimpleForm"
+    editable="true"
+    layout="ResponsiveGridLayout"
+    labelSpanL="3"
+    labelSpanM="3"
+    labelSpanS="12"
+    emptySpanL="4"
+    emptySpanM="4">
+    
+    <Label id="_IDGenLabel8" text="Employee id" />
+    <Input id="_IDGenInput1"  value="{empid}" />
+    
+    <Label id="_IDGenLabel9"  text="first Name" />
+    <Input id="_IDGenInput2"  value="{empname}" />
+    
+    <Label id="_IDGenLabel10"   text="Salary" />
+    <Input id="_IDGenInput3"  value= "{parts:[{path:'empsalary'},{path:'currency'}], formatter: '.formatter. SalaryFormat'}"/>
+    
+   
+
+        
+</f:SimpleForm>
+        </content>
+    </Page>
+</mvc:View>

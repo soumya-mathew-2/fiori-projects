@@ -1,0 +1,26 @@
+{
+    "request":[
+                {
+                    "Name": "Sanal",
+                    "Address":"JY Homes",
+                    "Phone Number":"9010334477",
+                    "Email id":"sanal@gmail.com",      
+                    "ApproveReject":"sap-icon://accept" 
+    
+                }],
+    "booking":[
+                    {
+                      "Employee id": "E0000111",
+                      "Employee Name":"Vini",
+                      "Company Name":"Applexus",
+                      "Booked Address" : "NestView",
+                      "Owner Name":"vini@gmail.com",      
+                      "Booking Date":"05/10/2023" 
+        
+                    }]
+                    
+}
+    
+
+    
+ 

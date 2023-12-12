@@ -1,0 +1,8 @@
+<!-- pointsFragment.fragment.xml -->
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+ 
+        <!-- <Text id="_IDGenText52" text="You have" /> -->
+        <!-- <Input id="_IDGenInput53" value="10" editable="false" />
+        <Text id="_IDGenText54" text="points" /> -->
+  
+</core:FragmentDefinition>

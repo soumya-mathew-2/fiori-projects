@@ -1,0 +1,29 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+    xmlns:f="sap.ui.layout.form">
+    <Dialog id="_IDGenDialog1">
+    <content>
+    <f:SimpleForm id="_IDGenSimpleForm1">
+    <f:content>
+    <Label id="_IDGenLabel7" text="Airline"></Label>
+    <Input id="_IDGenInput7" editable="false" />
+    <Label id="_IDGenLabel8"  text="Flight Number"/>
+    <Input id="_IDGenInput8" editable="false" />
+    <Label id="_IDGenLabel9"  text="Depart.city"/>
+    <Input id="_IDGenInput9" editable="true" />
+    <Label id="_IDGenLabel10"  text="Arrival city"/>
+    <Input id="_IDGenInput10" editable="true" />
+    <Label id="_IDGenLabel11"  text="Charter"/>
+    <Input id="_IDGenInput11" editable="true" />
+    </f:content>
+    </f:SimpleForm>
+    </content>
+    <beginButton>
+    <Button id="_IDGenButton2" text="Save" press="onSave"/>
+    </beginButton>
+    <endButton>
+    <Button id="_IDGenButton3" text="cancel" press="onCancel"/>
+    </endButton>
+    </Dialog>
+    </core:FragmentDefinition>

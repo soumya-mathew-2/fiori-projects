@@ -1,0 +1,79 @@
+<mvc:View controllerName="com.applexus.practice1.controller.Practice"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+            <!-- <content > <Table id="_IDGenTable1" items="{path:'/zb14_07_flightSet',filters:[{path:'Carrid',operator:'EQ',value1:'A'}]}">
+        <columns>
+        <Column id="_IDGenColumn1">
+        <Label id="_IDGenLabel1" text="Airline"/>
+        </Column>
+        <Column id="_IDGenColumn2">
+        <Label id="_IDGenLabel2" text="Flight Number"/>
+        </Column>
+        <Column id="_IDGenColumn4">
+        <Label id="_IDGenLabel4" text="Depart.city"/>
+        </Column>
+        <Column id="_IDGenColumn5">
+        <Label id="_IDGenLabel5" text="Arrival city"/>
+        </Column>
+         <Column id="_IDGenColumn6">
+        <Label id="_IDGenLabel6" text="Charter"/>
+        </Column>
+        </columns>
+        <items>
+        <ColumnListItem id="_IDGenColumnListItem1">
+        <cells>
+        <Text id="_IDGenText1" text="{Carrid}"></Text>
+          <Text id="_IDGenText3" text="{Connid}"></Text>
+           <Text id="_IDGenText4" text="{Cityfrom}"></Text>
+            <Text id="_IDGenText5" text="{Cityto}"></Text>
+             <Text id="_IDGenText6" text="{Fltype}"></Text>
+        </cells>
+        </ColumnListItem>
+        </items>
+        </Table> </content> -->
+              <content >
+            <Table id="_IDGenTable1" items="{oNewJSONModel>/NewData}">
+               <headerToolbar>
+              <Toolbar id="_IDGenToolbar1">
+              <Button id="_IDGenButton3" text="ADD" press="onAdd">   </Button>
+              </Toolbar>
+              </headerToolbar>
+        <columns>
+        <Column id="_IDGenColumn1">
+        <Label id="_IDGenLabel1" text="Airline"/>
+        </Column>
+        <Column id="_IDGenColumn2">
+        <Label id="_IDGenLabel2" text="Flight Number"/>
+        </Column>
+        <Column id="_IDGenColumn4">
+        <Label id="_IDGenLabel4" text="Depart.city"/>
+        </Column>
+        <Column id="_IDGenColumn5">
+        <Label id="_IDGenLabel5" text="Arrival city"/>
+        </Column>
+         <Column id="_IDGenColumn6">
+        <Label id="_IDGenLabel6" text="Charter"/>
+        </Column>
+         <Column id="_IDGenColumn7">
+        <Label id="_IDGenLabel7" text="Action"/>
+        </Column>
+        </columns>
+        <items>
+        <ColumnListItem id="_IDGenColumnListItem1">
+        <cells>
+        <Text id="_IDGenText1" text="{oNewJSONModel>Carrid}"></Text>
+          <Text id="_IDGenText3" text="{oNewJSONModel>Connid}"></Text>
+           <Text id="_IDGenText4" text="{oNewJSONModel>Cityfrom}"></Text>
+            <Text id="_IDGenText5" text="{oNewJSONModel>Cityto}"></Text>
+             <Text id="_IDGenText6" text="{oNewJSONModel>Fltype}"></Text>
+             <HBox id="_IDGenHBox1">
+             <Button id="_IDGenButton1" icon="sap-icon://delete" class ="sapUiTinyMarginEnd" press="onDelete" type="Reject"/>
+              <Button id="_IDGenButton2" icon="sap-icon://edit" press="onUpdate" type="Accept"/>
+             </HBox>
+        </cells>
+        </ColumnListItem>
+        </items>
+        </Table> </content>
+    </Page>
+</mvc:View>

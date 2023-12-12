@@ -1,0 +1,20 @@
+<mvc:View controllerName="com.applexus.tablecontrol.controller.new"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"    
+    xmlns="sap.m"
+    xmlns:t="sap.ui.table"
+     xmlns:c="sap.ui.core"
+     	xmlns:f="sap.ui.layout.form"
+        
+    >
+
+    <Page id="page" title="{i18n>title}">
+    
+		
+        <content>
+        
+        </content>
+       
+							
+
+    </Page>
+</mvc:View>

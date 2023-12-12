@@ -1,0 +1,23 @@
+{
+    "employees": [
+      {
+        "empid": "001",
+        "empname": "John Doe",
+        "salary":"700000"
+
+      },
+      {
+        "empid": "002",
+        "empname": "Jane Smith",
+        "salary":"60000"
+
+      },
+      {
+        "empid": "003",
+        "empname": "Bob Johnson",
+        "salary":"500000"
+      }
+      
+    ]
+  }
+  

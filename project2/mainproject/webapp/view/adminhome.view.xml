@@ -1,0 +1,229 @@
+<mvc:View controllerName="com.applexus.mainproject.controller.adminhome"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:t="sap.ui.table"
+    	xmlns:core="sap.ui.core" 
+    xmlns:form="sap.ui.layout.form"
+    xmlns="sap.m">
+   
+ <IconTabBar id="iconTabBar"
+            class="sapUiNoContentPadding">
+            <items>
+               <IconTabFilter id="_IDGenIconTabFilter1" text="View Requests" key="info" class="sapUiLargeMarginEnd">
+                  <Table id="tc1q" items="{path:'requests>/request'}" ariaLabelledBy="title">
+
+    <columns>
+
+        <Column id="ccq1" width="5rem">
+
+            <Label id="qcl1" text="Name" />
+
+        </Column>
+
+        <Column id="ccq7" width="5rem">
+
+            <Label id="lfcv8" text="Address" />
+
+        </Column>
+
+        <Column id="Ccqo2" width="5rem">
+
+            <Label id="Lcq2" text="Phone Number" />
+
+        </Column>
+
+        <Column id="cqcg5" width="5rem">
+
+            <Label id="c1cqg5" text="Email id" />
+
+        </Column>
+
+        <Column id="cgcq5" width="5rem">
+
+            <Label id="cc1gq5" text="Approve/Reject" />
+
+        </Column>
+        </columns>
+
+        <items>
+
+            <ColumnListItem id="vteqm1">
+
+                <cells>
+
+                    <Text id= "vcqt1" text="{requests>Name}"/>
+
+                </cells>
+
+                <cells>
+
+                    <Text id= "vcql2" text="{requests>Address}"/>
+
+                </cells>
+
+                <cells>
+
+                    <Text id= "vccq3" text="{requests>Phone Number}"/>
+
+                </cells>
+
+                <cells>
+
+                    <Text id= "vdccbq3" text="{requests>Email id}"/>
+
+                </cells>
+
+                <cells>
+
+                        <HBox id="cellButton">
+
+                        <Button id="bggb1"
+
+                        activeIcon=""
+
+                        enabled="true"
+
+                        icon="sap-icon://accept"
+
+                        text="Approve"
+
+                        textDirection="Inherit"
+
+                        type="Accept"
+
+                        width="100%"/>
+
+ 
+
+                        <Button id="by1"
+
+                        activeIcon=""
+
+                        enabled="true"
+
+                        icon="sap-icon://decline"
+
+                        text="reject"
+
+                        textDirection="Inherit"
+
+                        type="Reject"
+
+                        width="100%"/>
+
+                        </HBox>
+
+                </cells>
+
+            
+            </ColumnListItem>
+
+        </items>
+
+    </Table>
+               </IconTabFilter>
+               <IconTabFilter id="_IDGenIconTabFilter2" text="View Bookings" key="statistics">
+                <Table id="_IDGenTable1"  items="{path:'requests>/booking'}" ariaLabelledBy="title">
+
+    <columns>
+
+        <Column id="_IDGenColumn1"  width="5rem">
+
+            <Label id="_IDGenLabel1"  text="Employee id" />
+
+        </Column>
+
+        <Column id="_IDGenColumn2"  width="5rem">
+
+            <Label id="_IDGenLabel2"  text="Employee Name" />
+
+        </Column>
+
+        <Column id="_IDGenColumn3"  width="5rem">
+
+            <Label id="_IDGenLabel3"  text="Company Name" />
+
+        </Column>
+
+        <Column id="_IDGenColumn4"  width="5rem">
+
+            <Label id="_IDGenLabel4"  text="Booked Address" />
+
+        </Column>
+
+        <Column id="_IDGenColumn5"  width="5rem">
+
+            <Label id="_IDGenLabel5"  text="Owner Name" />
+
+        </Column>
+        <Column id="_IDGenColumn6"  width="5rem">
+
+            <Label id="_IDGenLabel6"  text="Booking Date" />
+
+        </Column>
+
+        </columns>
+
+        <items>
+
+            <ColumnListItem id="_IDGenColumnListItem1" >
+
+                <cells>
+
+                    <Text id="_IDGenText1"  text="{requests>Employee id}"/>
+
+                </cells>
+
+                <cells>
+
+                    <Text id="_IDGenText2"  text="{requests>Employee Name}"/>
+
+                </cells>
+
+                <cells>
+
+                    <Text id="_IDGenText3"  text="{requests>Company Name}"/>
+
+                </cells>
+
+                <cells>
+
+                    <Text id="_IDGenText4"  text="{requests>Booked Address}"/>
+
+                </cells>
+                <cells>
+
+                    <Text id="_IDGenText5"  text="{requests>Owner Name}"/>
+
+                </cells>
+                <cells>
+
+                    <Text id="_IDGenText6"  text="{requests>Booking Date}"/>
+
+                </cells>
+
+
+
+            
+            </ColumnListItem>
+
+        </items>
+
+    </Table>
+                      
+               </IconTabFilter>
+               <IconTabFilter id="_IDGenIconTabFilter3" text="Add Company Details"  key="info" >
+                <FlexBox id="flexbox1" alignItems="Center" justifyContent="Center">
+                         <VBox id="vbox2" class="sapUiSmallMargin">
+            <Input id="companyname" placeholder="Company Name" width="100%"/>
+            <Input id="domain" type="Password" placeholder="Domain" width="100%"/>
+            <HBox id="hbox1" justifyContent="Center">
+        <Button id="btn1" text="Submit" press="onLoginPress"/>
+        </HBox>
+        </VBox>
+        </FlexBox>
+               </IconTabFilter>
+            </items>
+         </IconTabBar>
+        
+         
+</mvc:View>

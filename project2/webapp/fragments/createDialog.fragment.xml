@@ -1,0 +1,38 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core" 
+   xmlns:form= "sap.ui.layout.form">
+   <Dialog
+      id="_IDGenDialog2">
+      <content>
+      <form:SimpleForm id="_IDGenSimpleForm2" >
+      <form:content>
+      <Label id="_IDGenLabel4"  text="Carrid">
+      </Label>
+      <Input id="_IDGenInput4">
+      </Input>
+      <Label id="_IDGenLabel5"  text="Connid">
+      </Label>
+      <Input id="_IDGenInput5" >
+      </Input>
+      <Label id="_IDGenLabel1"  text="customer id">
+      </Label>
+      <Input id="_IDGenInput1" >
+      </Input>
+       <Label id="_IDGenLabel3"  text="class">
+      </Label>
+      <Input id="_IDGenInput3" >
+      </Input>
+      </form:content>
+      </form:SimpleForm>
+      </content>
+      <beginButton>
+      <Button id="_IDGenButton1" text="save" press="onPressSave">
+      </Button>
+      </beginButton>
+      <endButton>
+       <Button id="_IDGenButton2" text="cancel" press="onPressCancel">
+      </Button>
+      </endButton>
+   </Dialog>
+</core:FragmentDefinition>

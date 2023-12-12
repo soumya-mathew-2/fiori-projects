@@ -1,0 +1,165 @@
+
+{
+    "employees": [
+      {
+        "empid": "001",
+        "empname": "John Doe",
+        "empsalary": 50000,
+        "currency": "INR",
+        "Gender":  "https://th.bing.com/th/id/R.a53c0ef3b1703b2da5865559b03dc9ee?rik=unOsoKRZWdcDzw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_24707.png&ehk=Spm4fIth9Pj07WlhYnJ%2bnx79pVe5YrHTaFl%2b7VssCac%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "married",
+        "rating": 4.5,
+        "smoker": "false"
+      },
+      {
+        "empid": "002",
+        "empname": "Jane Smith",
+        "empsalary": 55000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.43ffb5d64336d9838be74e4f9de707aa?rik=JU2AO8IkO4ul6w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_529937.png&ehk=y9z8d8sBAkBKWPf2n6j9ll9xAcleurXreH6UgHi6%2fu0%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "single",
+        "rating": 4.2,
+        "smoker": "true"
+      },
+      {
+        "empid": "003",
+        "empname": "David Johnson",
+        "empsalary": 60000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.a53c0ef3b1703b2da5865559b03dc9ee?rik=unOsoKRZWdcDzw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_24707.png&ehk=Spm4fIth9Pj07WlhYnJ%2bnx79pVe5YrHTaFl%2b7VssCac%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "married",
+        "rating": 4.7,
+        "smoker": "false"
+      },
+      {
+        "empid": "004",
+        "empname": "Sarah Williams",
+        "empsalary": 52000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.43ffb5d64336d9838be74e4f9de707aa?rik=JU2AO8IkO4ul6w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_529937.png&ehk=y9z8d8sBAkBKWPf2n6j9ll9xAcleurXreH6UgHi6%2fu0%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "married",
+        "rating": 4.0,
+        "smoker": "true"
+      },
+      {
+        "empid": "005",
+        "empname": "Michael Brown",
+        "empsalary": 48000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.a53c0ef3b1703b2da5865559b03dc9ee?rik=unOsoKRZWdcDzw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_24707.png&ehk=Spm4fIth9Pj07WlhYnJ%2bnx79pVe5YrHTaFl%2b7VssCac%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "married",
+        "rating": 4.3,
+        "smoker": "false"
+      },
+      {
+        "empid": "006",
+        "empname": "Emily Davis",
+        "empsalary": 53000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.43ffb5d64336d9838be74e4f9de707aa?rik=JU2AO8IkO4ul6w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_529937.png&ehk=y9z8d8sBAkBKWPf2n6j9ll9xAcleurXreH6UgHi6%2fu0%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "single",
+        "rating": 3.9,
+        "smoker": "false"
+      },
+      {
+        "empid": "007",
+        "empname": "Robert Wilson",
+        "empsalary": 59000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.a53c0ef3b1703b2da5865559b03dc9ee?rik=unOsoKRZWdcDzw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_24707.png&ehk=Spm4fIth9Pj07WlhYnJ%2bnx79pVe5YrHTaFl%2b7VssCac%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "married",
+        "rating": 4.8,
+        "smoker": "true"
+      },
+      {
+        "empid": "008",
+        "empname": "Olivia Lee",
+        "empsalary": 51000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.43ffb5d64336d9838be74e4f9de707aa?rik=JU2AO8IkO4ul6w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_529937.png&ehk=y9z8d8sBAkBKWPf2n6j9ll9xAcleurXreH6UgHi6%2fu0%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "single",
+        "rating": 4.2,
+        "smoker": "false"
+      },
+      {
+        "empid": "009",
+        "empname": "James Anderson",
+        "empsalary": 56000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.a53c0ef3b1703b2da5865559b03dc9ee?rik=unOsoKRZWdcDzw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_24707.png&ehk=Spm4fIth9Pj07WlhYnJ%2bnx79pVe5YrHTaFl%2b7VssCac%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "married",
+        "rating": 4.6,
+        "smoker": "true"
+      },
+      {
+        "empid": "010",
+        "empname": "Sophia Martin",
+        "empsalary": 54000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.43ffb5d64336d9838be74e4f9de707aa?rik=JU2AO8IkO4ul6w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_529937.png&ehk=y9z8d8sBAkBKWPf2n6j9ll9xAcleurXreH6UgHi6%2fu0%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "single",
+        "rating": 4.1,
+        "smoker": "false"
+      },
+      {
+        "empid": "011",
+        "empname": "William Taylor",
+        "empsalary": 58000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.a53c0ef3b1703b2da5865559b03dc9ee?rik=unOsoKRZWdcDzw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_24707.png&ehk=Spm4fIth9Pj07WlhYnJ%2bnx79pVe5YrHTaFl%2b7VssCac%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "married",
+        "rating": 4.9,
+        "smoker": "false"
+      },
+      {
+        "empid": "012",
+        "empname": "Ava Garcia",
+        "empsalary": 49000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.43ffb5d64336d9838be74e4f9de707aa?rik=JU2AO8IkO4ul6w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_529937.png&ehk=y9z8d8sBAkBKWPf2n6j9ll9xAcleurXreH6UgHi6%2fu0%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "single",
+        "rating": 4.0,
+        "smoker": "true"
+      },
+      {
+        "empid": "013",
+        "empname": "Liam Hernandez",
+        "empsalary": 47000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.a53c0ef3b1703b2da5865559b03dc9ee?rik=unOsoKRZWdcDzw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_24707.png&ehk=Spm4fIth9Pj07WlhYnJ%2bnx79pVe5YrHTaFl%2b7VssCac%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "married",
+        "rating": 3.8,
+        "smoker": "false"
+      },
+      {
+        "empid": "014",
+        "empname": "Ella Martinez",
+        "empsalary": 52000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.43ffb5d64336d9838be74e4f9de707aa?rik=JU2AO8IkO4ul6w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_529937.png&ehk=y9z8d8sBAkBKWPf2n6j9ll9xAcleurXreH6UgHi6%2fu0%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "single",
+        "rating": 4.2,
+        "smoker": "false"
+      },
+      {
+        "empid": "015",
+        "empname": "Benjamin Brown",
+        "empsalary": 59000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.a53c0ef3b1703b2da5865559b03dc9ee?rik=unOsoKRZWdcDzw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_24707.png&ehk=Spm4fIth9Pj07WlhYnJ%2bnx79pVe5YrHTaFl%2b7VssCac%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "married",
+        "rating": 4.6,
+        "smoker": "true"
+      },
+      {
+        "empid": "016",
+        "empname": "Aria Jones",
+        "empsalary": 51000,
+        "currency": "INR",
+        "Gender": "https://th.bing.com/th/id/R.43ffb5d64336d9838be74e4f9de707aa?rik=JU2AO8IkO4ul6w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_529937.png&ehk=y9z8d8sBAkBKWPf2n6j9ll9xAcleurXreH6UgHi6%2fu0%3d&risl=&pid=ImgRaw&r=0",
+        "Marital status": "single",
+        "rating": 3,
+        "smoker": "true"
+  
+  }]
+}

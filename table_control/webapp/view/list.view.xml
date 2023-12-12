@@ -1,0 +1,45 @@
+<mvc:View controllerName="com.applexus.tablecontrol.controller.list"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"    
+    xmlns="sap.m"
+    xmlns:t="sap.ui.table"
+     xmlns:c="sap.ui.core"
+     	xmlns:f="sap.ui.layout.form"
+        
+    >
+
+    <Page id="page" title="{i18n>title}">
+    
+		
+        <content>
+        <SearchField id="_IDGenSearchField1" liveChange= ".onFilter"/>
+        <Button
+											id="deleteUserButton"
+											icon="sap-icon://delete"
+											tooltip="{i18n>deleteButtonText}"
+											press="onDelete">
+											<layoutData>
+												<OverflowToolbarLayoutData id="_IDGenOverflowToolbarLayoutData1" priority="NeverOverflow"/>
+											</layoutData>
+										</Button>
+        <List id="_IDGenList1"  items="{
+         path : 'fruit>/fruit',
+         sorter : {
+            path : 'price' 
+         }
+      }" mode="MultiSelect">
+        <ObjectListItem id="_IDGenObjectListItem1" 
+        title="{fruit>name}"
+         number="{fruit>price}" 
+         numberUnit="{fruit>curr}" 
+         icon="{fruit>image}" 
+         type="Navigation" 
+         press="onNav"
+         />
+        
+        </List>
+        </content>
+       
+							
+
+    </Page>
+</mvc:View>

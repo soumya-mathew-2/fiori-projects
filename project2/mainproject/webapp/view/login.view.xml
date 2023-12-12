@@ -1,0 +1,19 @@
+<mvc:View controllerName="com.applexus.mainproject.controller.login"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <VBox id="vbox1" class="login-container" alignItems="Center" justifyContent="Center">
+    <Title id="title1" text="Login" level="H1" />
+        <FlexBox id="flexbox1" class="login-container" alignItems="Center" justifyContent="Center">
+        <VBox id="vbox2" class="sapUiSmallMargin">
+            <Input id="emailInput" placeholder="Email Id"/>
+            <Input id="passwordInput" type="Password" placeholder="Password"/>
+            <Link id="link1" text="New user? Register Here" press="onRegisterPress" />
+            <HBox id="hbox1" justifyContent="Center">
+        <Button id="btn1" text="Login" press="onLoginPress"/>
+        </HBox>
+        </VBox>
+        </FlexBox>
+        </VBox>
+    </Page>1
+</mvc:View>

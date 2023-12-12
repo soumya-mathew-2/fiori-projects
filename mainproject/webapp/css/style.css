@@ -1,0 +1,94 @@
+
+.login-page {
+    background-color: #8fdff3; 
+    background-image: url("../css/bg.jpg");
+    background-size: cover; 
+  background-repeat: no-repeat; 
+  }
+  .sapMLabel {
+    font-size: 30px;
+  }
+  .smallLabel {
+    font-size: 15px; 
+  }
+ 
+.inputContainer {
+  margin-left: 10px; 
+}
+.buttonMargin {
+  margin-right: 10px; 
+}
+
+  .login-box {
+    background-color: #8fdaf3;
+   
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 30px; 
+    width: 100%; 
+    max-width: 300px; 
+    margin: 0 auto; 
+    text-align: center; 
+    height: 400px;
+  }
+  .login-box1 {
+    background-color: #8fdaf3;
+ 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 30px; 
+    width: 100%;
+    max-width: 200px; 
+    margin: 0 auto; 
+    text-align: center; 
+    height: 200px; 
+  }
+  
+  
+  
+  .login-input {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    width: 100%;
+    background-color: #007acc; 
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #005c9a;
+  }
+
+
+.customIconTabFilter {
+  font-size: 18px; 
+}
+
+.customIconTabFilter .sapMITBText {
+  white-space: nowrap;
+}
+.logout-tab {
+  justify-content: flex-end !important; 
+  display: flex !important; 
+}
+
+.customSimpleForm .sapMLabel {
+  font-size: 14px; 
+
+.customSimpleForm .sapMInputBase {
+  font-size: 14px; 
+}
+
+
+}

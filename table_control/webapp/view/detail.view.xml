@@ -1,0 +1,58 @@
+<mvc:View
+    controllerName="com.applexus.tablecontrol.controller.detail"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:t="sap.ui.table"
+    xmlns:core="sap.ui.core"
+    xmlns:f="sap.ui.layout.form"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+        <IconTabBar
+            id="idIconTabBar"
+            select="onFilterSelect"
+            class="sapUiResponsiveContentPadding"
+        >
+            <items>
+                <IconTabSeparator id="_IDGenIconTabSeparator1" />
+                <IconTabFilter
+                    id="_IDGenIconTabFilter2"
+                    icon="sap-icon://information"
+                    iconColor="Default"
+                    
+                    text="Info"
+                    key="Ok"
+                >
+                <core:Fragment fragmentName="com.applexus.tablecontrol.Fragments.info" type="XML"/>
+                </IconTabFilter>
+                <IconTabFilter
+                    id="_IDGenIconTabFilter3"
+                    icon="sap-icon://supplier"
+                    iconColor="Critical"
+                    text="Supplier"
+                    key="Supplier"
+
+                    
+                >
+                <core:Fragment fragmentName="com.applexus.tablecontrol.Fragments.supplier" type="XML"/>
+                 </IconTabFilter>
+                <IconTabFilter
+                    id="_IDGenIconTabFilter4"
+                    icon="sap-icon://map-fill"
+                    iconColor="Positive"
+                    text="Location"
+                    key="Location"
+                >
+                <core:Fragment fragmentName="com.applexus.tablecontrol.Fragments.city" type="XML"/>
+                </IconTabFilter>
+            </items>
+
+            <content>
+            
+            </content>
+        </IconTabBar>
+    </Page>
+</mvc:View>

@@ -1,0 +1,48 @@
+<mvc:View 
+    controllerName="com.applexus.project2.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="_IDGenPage1"  title="{i18n>title}">
+        <content>
+        <Table id="idProductsTable"
+		items="{path:'FlightDataModel>/'}"
+        growing="true"
+        growingThreshold="5">
+        <headerToolbar>
+					<OverflowToolbar id="otbSubheader">
+						<Button id="_IDGenButton3" text="Add Entry" icon="sap-icon://add" class="sapUiTinyMarginEnd" press="onCreate"></Button>
+					</OverflowToolbar>
+				</headerToolbar>
+        <columns>
+        <Column id="c1">
+        <Label id="_IDGenLabel1" text="carrid"></Label>
+        </Column>
+        <Column id="c2">
+        <Label id="_IDGenLabel2" text="connid"></Label>
+        </Column>
+        <Column id="c3">
+        <Label id="_IDGenLabel3" text="customer_id"></Label>
+        </Column>
+        <Column id="c4">
+        <Label id="_IDGenLabel4" text="class"></Label>
+        </Column>
+        <Column id="c5">
+        <Label id="_IDGenLabel5" text="Action"></Label>
+        </Column>
+        </columns>
+        <ColumnListItem id="_IDGenColumnListItem1">
+        <cells>
+        <Text id="_IDGenText1" text="{FlightDataModel>Carrid}"></Text>
+        <Text id="_IDGenText2" text="{FlightDataModel>Connid}"></Text>
+        <Text id="_IDGenText3" text="{FlightDataModel>CustomerId}"></Text>
+        <Text id="_IDGenText4" text="{FlightDataModel>Class}"></Text>
+        <HBox id="hbox">
+        <Button id="_IDGenButton1" icon="sap-icon://delete" class="sapUiTinyMarginEnd" type="Reject" press="onDelete"/>
+        <Button id="_IDGenButton2" icon="sap-icon://edit" class="sapUiTinyMarginEnd" press="onUpdate"></Button>
+        </HBox>
+        </cells>
+        </ColumnListItem>
+        </Table>       
+        </content>
+    </Page>
+</mvc:View>

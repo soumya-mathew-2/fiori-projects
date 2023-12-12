@@ -1,0 +1,43 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+
+	  <Table id="_IDGenTable1" items="{path: 'fruit>/supplier'}">
+      <columns >
+      <Column id="_IDGenColumn1">
+      <Text id="_IDGenText1"  text ="Suppler Name"/></Column>
+      <Column id="_IDGenColumn2">
+      <Text id="_IDGenText2"  text ="Since When"/></Column>
+      <Column id="_IDGenColumn3">
+      <Text id="_IDGenText3"  text ="Contact No"/></Column>
+      <Column id="_IDGenColumn4">
+      <Text id="_IDGenText4"  text ="Person"/></Column>
+      <Column id="_IDGenColumn5">
+      <Text id="_IDGenText5"  text ="No Of Stores"/></Column>
+      <Column id="_IDGenColumn6">
+      <Text id="_IDGenText6"  text ="Speciality"/></Column>
+      <Column id="_IDGenColumn19">
+      <Text id="_IDGenText19"  text ="City"/></Column>
+      </columns>
+      <items>
+      <ColumnListItem id="_IDGenColumnListItem1">
+      <cells>
+      <ObjectIdentifier id="_IDGenObjectIdentifier1" title="{fruit>name}"/>
+      <Text id="_IDGenText7" text="{fruit>sincewhen}"/>
+      <Text id="_IDGenText8" text="{fruit>contactno}"/>
+      <Text id="_IDGenText9" text="{fruit>person}"/>
+      <Text id="_IDGenText10" text="{fruit>nofstores}"/>
+      <Text id="_IDGenText11" text="{fruit>speciality}"/>
+      <Input
+			id="city"
+			placeholder="City"
+			showValueHelp="true"
+			valueHelpRequest="onValueHelpRequested"
+			/>
+
+      </cells>
+      </ColumnListItem>
+      </items>
+           
+            </Table>
+</core:FragmentDefinition>

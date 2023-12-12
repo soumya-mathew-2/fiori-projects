@@ -1,0 +1,62 @@
+<mvc:View controllerName="com.applexus.calculator.controller.calculator"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content> 
+        
+        
+      <VBox id = "v">
+
+        <Input id="display" value="{/display}" width="30%" enabled="false" class="CalculatorDisplay" />
+         
+
+        <HBox id = "h">
+
+            <Button id = "_IDGenButton1"  text="1" press="onPress" class="Button" ></Button>
+
+            <Button id = "_IDGenButton2"  text="2" press="onPress" class="Button" ></Button>
+
+            <Button id ="_IDGenButton3"  text="3" press="onPress" class="Button" ></Button>
+
+            <Button id ="_IDGenButton4"  text="+" press="onOperator" class="Button" ></Button>
+            </HBox>
+
+            <HBox id = "h1">
+
+            <Button id="_IDGenButton5"  text="4" press="onPress" class="Button"></Button>
+
+            <Button id="_IDGenButton6"  text="5" press="onPress" class="Button"></Button>
+
+            <Button id="_IDGenButton7" text="6" press="onPress" class="Button" ></Button>
+
+            <Button id="_IDGenButton8"  text="-" press="onOperator" class="Button" ></Button>
+            </HBox>
+
+           <HBox id = "h2">
+            <Button id="_IDGenButton9"  text="7" press="onPress" class="Button" ></Button>
+
+            <Button id="_IDGenButton10"  text="8" press="onPress" class="Button"></Button>
+
+            <Button id="_IDGenButton11"  text="9" press="onPress" class="Button"></Button>
+
+            <Button id="_IDGenButton12"  text="*" press="onOperator" class="Button"></Button>
+
+            </HBox>
+
+            <HBox id = "h3">
+
+            <Button id="_IDGenButton13"  text="C" press="onClear" class="ClearButton" ></Button>
+
+            <Button id="_IDGenButton14" text="0" press="onPress" class="Button"></Button>
+
+            <Button id="_IDGenButton15"  text="=" press="onCalculate" class="EqualButton"></Button>
+
+            <Button id="_IDGenButton16"  text="/" press="onOperator" class="Button" ></Button>
+
+        </HBox>
+
+        </VBox>
+
+        </content>
+    </Page>
+</mvc:View>

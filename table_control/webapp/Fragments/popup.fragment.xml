@@ -1,0 +1,14 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+
+	 	<SelectDialog
+		id="myDialog"
+		noDataText="No Cities Found"
+		title="Select Product"
+		search=".handleSearch"
+		confirm="onConfirm"
+		cancel=".handleClose"
+		>
+    	</SelectDialog>
+</core:FragmentDefinition>

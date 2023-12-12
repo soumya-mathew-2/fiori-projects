@@ -1,0 +1,38 @@
+<mvc:View controllerName="com.applexus.mainproject.controller.login"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="Commute Companion" class='login-page'>
+           <content>
+             <FlexBox
+
+                id="f1"
+
+                alignItems="Center"
+
+                justifyContent="Center"
+
+                width="100%"
+
+                height="100%"
+
+                direction="Column"
+
+                 class="login-page">
+          <VBox id="_IDGenVBox1" justifyContent="Center" alignItems="Center" height="100%">
+            <Label id="_IDGenLabel1" text="Login" class="sapUiMediumMargin"  design="Bold"/>
+            <HBox id="_IDGenHBox1" class="login-box1">
+              <VBox id="_IDGenVBox2">
+               <Input id="userid" placeholder="User Id"/>
+             <Input id="passwordInput" type="Password" placeholder="Password" />
+             <Link id="link1" text="New user? Register Here" press="onRegisterPress" />
+             <HBox id="hbox1" justifyContent="Center">
+        <Button id="btn1" text="Login" press="onLoginPress" class="login-button" />
+        </HBox>
+              </VBox>
+            </HBox>
+          </VBox>
+          </FlexBox>
+        </content>
+     
+    </Page> 
+</mvc:View>

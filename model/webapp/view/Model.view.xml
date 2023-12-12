@@ -1,0 +1,33 @@
+<mvc:View controllerName="com.applexus.model.controller.Model"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content >
+         <f:SimpleForm
+         id="mySimpleForm"
+    editable="true"
+    layout="ResponsiveGridLayout"
+    labelSpanL="3"
+    labelSpanM="3"
+    labelSpanS="12"
+    emptySpanL="4"
+    emptySpanM="4">
+    
+    <Label id="_IDGenLabel1" text="empid" />
+    <Input id="_IDGenInput1" value="{/employees/0/empid}" />
+    
+    <Label id="_IDGenLabel2" text="first Name" />
+    <Input id="_IDGenInput2" value="{/employees/0/empname}" />
+    <Label id="_IDGenLabel3"  text="Salary" />
+    <Input id="_IDGenInput3" value="{/employees/0/salary}" enabled="{=${path:'/employees/empname'}==='John Doe'?false:true}" />
+
+   <ToggleButton id="ID" text="submit" press="onPress"/>
+    
+   
+    
+
+    
+  </f:SimpleForm> </content>
+    </Page>
+</mvc:View>
